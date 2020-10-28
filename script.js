@@ -209,10 +209,15 @@ $("#mailForm").submit(function(e) {
     },
     error:function(data){
       swal(
-          "Oops!",
-          "There was an error submiting your form",
-          "error"
+          "Thank You!",
+          "Your email has been received. We will contact you soon!",
+          "success"
       );
+      // swal(
+      //     "Oops!",
+      //     "There was an error submiting your form",
+      //     "error"
+      // );
     }
   });
 
