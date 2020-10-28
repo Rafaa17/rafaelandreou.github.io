@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rafael Andreou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="./fresco.css">
+    <script src="./fresco.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127941329-2"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-127941329-2');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+    <button href="#" title="Scroll Top" class="scrollToTop btn" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a id="nameBtn" href="#" class="cv btn">Rafael Andreou</a>
+        <button onclick="openNav()" class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav mr-auto w-100 justify-content-end">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#home1">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home2">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <!-- <a class="nav-link" href="#home">Home</a> -->
+            <a class="nav-link" href="#home1">Projects</a>
+            <a class="nav-link" href="#home2">Skills</a>
+            <a class="nav-link" href="#home3">Contact</a>
+        </div>
+    </div>
+
+    <section class="sectionItem" id="home">
+        <div class="container-fluid">
+            <div id="profile" class="row" style="margin-top:10vh; padding-bottom: 10vh;">
+                <div class="col-xl-3 offset-xl-2 col-lg-6 offset-lg-3 offset-md-2 col-md-8">
+                    <div class="card profile">
+                        <button title="Download my Curriculum Vitae" id="downloadCVbtn" type="button" onclick="downloadCV()"
+                            class="btn downloadCV btn-circle btn-lg"><i class="fa fa-download"></i></button>
+                        <div class="box">
+                            <div class="img">
+                                <img src="./images/profile.jpg">
+                            </div>
+                            <h2>Rafael Andreou<br><span>Software Developer</span></h2>
+                            <p>Skilled at writing
+                                well-designed, testable and efficient code. Fast learner, hard worker and team player</p>
+                            <span>
+                                <ul>
+                                    <li><a target="_blank" href="https://www.facebook.com/rafaelandreou17"><i class="fa fa-facebook"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a target="_blank" href="https://twitter.com/AndreouRafael"><i class="fa fa-twitter"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a target="_blank" href="https://github.com/Rafaa17"><i class="fa fa-github"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/rafael-andreou-ab4490166/"><i
+                                                class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a target="_blank" href="https://www.instagram.com/__randr17__/?hl=en"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-xl-3 offset-xl-2 col-lg-6 offset-lg-3 offset-md-2 col-md-8">
+                    <div id="intro_full" class="row" id="titleRow" style="margin-top: 5%">
+
+                        <div class="col-md-12">
+
+                            <div class="typewriter">
+
+                                <h1> &lt;Code. Learn. Have fun./&gt;</h1>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="row" id="intro_small" style="margin-top: 30%">
+
+                <div>
+
+                    <h1 id="msg1">Code</h1>
+                    <h1 id="msg2">Learn</h1>
+                    <h1 id="msg3">Have fun</h1>
+
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <section class="sectionItem" id="home1">
+
+        <h1 id="section2title" class="sectionTitle">PROJECTS</h1>
+
+        <div class="container" id="containerTimeline">
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge">
+                        <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel thumbnail">
+                        <div class="caption">
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://play.google.com/store/apps/details?id=io.ionic.questi'>https://play.google.com/store/apps/details?id=io.ionic.questi</a></a>"
+                                data-fresco-group="cytalks_project" href="images/cytalks1.PNG" class="fresco">
+                                <img href="#" src="images/cytalks1.PNG">
+                                <!-- <div class="view_more">View More</div> -->
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://play.google.com/store/apps/details?id=io.ionic.questi'>https://play.google.com/store/apps/details?id=io.ionic.questi</a></a>"
+                                style="display:none" data-fresco-group="cytalks_project" href="images/cytalks2.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/cytalks2.PNG">
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://play.google.com/store/apps/details?id=io.ionic.questi'>https://play.google.com/store/apps/details?id=io.ionic.questi</a></a>"
+                                style="display:none" data-fresco-group="cytalks_project" href="images/cytalks3.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/cytalks3.PNG">
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://play.google.com/store/apps/details?id=io.ionic.questi'>https://play.google.com/store/apps/details?id=io.ionic.questi</a></a>"
+                                style="display:none" data-fresco-group="cytalks_project" href="images/cytalks4.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/cytalks4.PNG">
+                            </a>
+                            <div class="project_link">
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=io.ionic.questi"
+                                    class="visit_project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">CyTalks</h4>
+                            <p style="color:#ffafd0">
+                                Personal Project
+                            </p>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="project">
+                                Learn Cypriot with this trivia fun game where you can play single or multiplayer mode.
+                                Challenge yourself or with other players available or play privately within a room with
+                                your friends!
+                            </p>
+                            <p class="project">
+                                Built using Ionic framework v3 for front-end and NodeJS for back-end.
+                            </p>
+                        </div>
+                        <!-- <div class="project_link">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=io.ionic.questi"
+                                class="visit_project">View Project</a>
+                        </div> -->
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning">
+                        <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel thumbnail">
+                        <div class="caption">
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://www.ggchanni.com'>https://www.ggchanni.com</a>"
+                                data-fresco-group="ggchanni_project" href="images/ggchanni.PNG" class="fresco">
+                                <img href="#" id="asda" src="images/ggchanni.PNG">
+                                <!-- <div class="view_more">View More</div> -->
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://www.ggchanni.com'>https://www.ggchanni.com</a>"
+                                style="display:none" data-fresco-group="ggchanni_project" href="images/ggchanni1.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ggchanni.PNG">
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://www.ggchanni.com'>https://www.ggchanni.com</a>"
+                                style="display:none" data-fresco-group="ggchanni_project" href="images/ggchanni2.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ggchanni.PNG">
+                            </a>
+                            <a data-fresco-caption="View Project on <a style='text-align:center' target='_blank' href='https://www.ggchanni.com'>https://www.ggchanni.com</a>"
+                                style="display:none" data-fresco-group="ggchanni_project" href="images/ggchanni3.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ggchanni.PNG">
+                            </a>
+                            <div class="project_link">
+                                <a target="_blank" href="https://www.ggchanni.com" class="visit_project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">ggchanni</h4>
+                            <p style="color:#ffafd0">
+                                Typography - Copy Center
+                            </p>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="project">
+                                Typography - Copy Center at Larnaca. Low Prices, Superb Quality. Monthly Offers.
+                                Beautiful designs - Showcase.
+                            </p>
+                            <p class="project">
+                                Built using Bootstrap, jQuery for front-end and NodeJS + Dropbox API for back-end.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge">
+                        <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel thumbnail">
+                        <div class="caption">
+                            <a data-fresco-group="ucystuff_project" href="images/ucystuff1.PNG" class="fresco">
+                                <img href="#" src="images/ucystuff1.PNG">
+                                <!-- <div class="view_more">View More</div> -->
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff2.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff2.PNG">
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff3.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff3.PNG">
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff4.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff4.PNG">
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff5.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff5.PNG">
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff6.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff6.PNG">
+                            </a>
+                            <a style="display:none" data-fresco-group="ucystuff_project" href="images/ucystuff7.PNG"
+                                class="fresco">
+                                <img href="#" id="asda" src="images/ucystuff7.PNG">
+                            </a>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Academic Stuff System</h4>
+                            <p style="color:#ffafd0">
+                                University of Cyprus
+                            </p>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="project">
+                                Recently implemented System that helps professors and other staff of the university to
+                                store activities about their career
+                                and other university activities and able to export statistics and reports. (Team
+                                project - I implemented the front-end of the system). The system is currently on
+                                beta testing.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning">
+                        <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">questI</h4>
+                            <p style="color:#ffafd0">
+                                University of Cyprus
+                            </p>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="project">A game that was implemented for a project on a Web Technologies course.
+                                It offered an interactive
+                                lesson – teacher was able to send questions to students in real time in class using his
+                                mobile
+                                or laptop -. (Team project - I implemented the mobile application on Ionic platform v3 –
+                                used
+                                node.js with Socket.IO to implement a socket server for real time connection). – Not installed due to lack of a server in university.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="sectionItem" id="home2">
+
+        <h1 id="section3title" class="sectionTitle">SKILLS</h1>
+
+        <div class="container" id="skills-container">
+
+            <div id="skills-row">
+
+                <div class="row">
+
+                    <div class="col-xl-5 col-lg-5 col-md-12">
+
+                        <div class="barWrapper">
+                            <span class="progressText"><B>PROGRAMMING</B></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+
+                            <div class="barWrapper">
+                                <span class="progressText"><B>COMMUNICATION</B></span>
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10"
+                                        aria-valuemax="100" style="">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="barWrapper">
+                                <span class="progressText"><B>TIME MANAGEMENT</B></span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-5 offset-xl-2 offset-lg-2 col-md-12">
+
+                        <div class="barWrapper">
+                            <span class="progressText"><B>ADAPTABILITY</B></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper">
+                            <span class="progressText"><B>DECISION MAKING</B></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="barWrapper">
+                            <span class="progressText"><B>TEAMWORK</B></span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="sectionItem" id="home3">
+
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 15%">
+                <div class="col-xl-7 col-md-12">
+                    <h1 id="contact_me_text">Want to know more <br> about me?</h1>
+                </div>
+                <div id="contact_form" class="login-form col-xl-4 offset-xl-0 offset-md-3 col-md-6">
+
+                    <form id="mailForm" action='./mail.php'>
+                        <div class="card">
+                            <div class="card-header p-0">
+                                <div id="contact-header" class="text-white text-center py-2">
+                                    <h3><i class="fa fa-envelope"></i>Contact me</h3>
+                                </div>
+                            </div>
+                            <div class="card-body p-3">
+
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-user"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Name"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="E-mail"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-comment"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Message" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Submit" id="contact-submit-btn" class="btn btn-block rounded-0 py-2">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="row" style="margin-top: 12%; margin-bottom: 5%">
+                <div id="find_me" class="offset-md-2 col-md-8">
+                    <h2 id="find_me_text">Find Me</h2>
+                    <ul class="social-network social-circle">
+                        <li><a target="_blank" href="https://www.facebook.com/rafaelandreou17" class="icoFacebook"
+                                title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/AndreouRafael" class="icoTwitter" title="Twitter"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/rafael-andreou-ab4490166/" class="icoLinkedin"
+                                title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/Rafaa17" class="icoGitHub" title="GitHub"><i
+                                    class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 footer-info" id="copyright">
+                    &copy; 2018 Copyright Rafael Andreou. All rights Reserved.
+                </div>
+                <div class="col-md-6 footer-info" id="poweredby">
+                    Powered By
+                    <a href="https://cy.linkedin.com/in/rafael-andreou-ab4490166">Rafael Andreou</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        tippy('.downloadCV', {
+            placement: 'right',
+            animation: 'fade',
+            arrow: 'true',
+            size: 'large',
+            theme: 'myTip',
+        });
+
+        // tippy('.scrollToTop', {
+        //     placement: 'top',
+        //     animation: 'perspective',
+        //     arrow: 'true',
+        //     size: 'large',
+        //     theme: 'myTip',
+        // });
+    </script>
+
+</body>
+
+<script type="text/javascript" src="http://catmull.uk/downloads/bg-loaded/bg-loaded.js"></script>
+<script src="script.js"></script>
+
+</html>

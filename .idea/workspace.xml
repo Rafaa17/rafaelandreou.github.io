@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19415968-a5c2-470f-8b83-e21fe18cb0c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-bg33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fresco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fresco.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/asd (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/asd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contactus-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cytalks1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cytalks2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cytalks3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cytalks4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ggchanni.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ggchanni1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ggchanni2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ggchanni3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/skills.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ucystuff7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/fresco/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/fresco/sprite.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jVpEHwn6n8wJBsdFz8ervC8DbV" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19415968-a5c2-470f-8b83-e21fe18cb0c5" name="Default Changelist" comment="" />
+      <created>1603899000031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603899000031</updated>
+      <workItem from="1603899001119" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
