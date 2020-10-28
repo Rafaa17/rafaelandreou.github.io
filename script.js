@@ -195,17 +195,23 @@ $(document).ready(function() {
 
 // this is the id of the form
 $("#mailForm").submit(function(e) {
-  var url = "./mail.php"; // the script where you handle the form input.
 
   $.ajax({
     type: "POST",
-    url: url,
+    url: "https://formspree.io/f/xoqpwqbk",
     data: $("#mailForm").serialize(), // serializes the form's elements.
     success: function(data) {
       swal(
         "Thank You!",
         "Your email has been received. We will contact you soon!",
         "success"
+      );
+    },
+    error:function(data){
+      swal(
+          "Oops!",
+          "There was an error submiting your form",
+          "error"
       );
     }
   });
